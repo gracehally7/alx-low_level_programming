@@ -6,7 +6,7 @@
  * Return: 0 on success. Error code otherwise
  */
 int _putchar(void);
-int main(void);
+int main(void)
 
 {
 	char s[] = "_putchar";
