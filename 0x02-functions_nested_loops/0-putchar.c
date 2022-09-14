@@ -9,16 +9,16 @@ int _putchar(void);
 int main(void)
 
 {
-	char s[] = "_putchar";
-	int i = 0;
+	char *sh = "_putchar";
 
-	while (s[i] != '\0')
+
+	while (*sh)
 	{
-		_putchar(s[i]);
+		_putchar(*sh);
 		i++;
 	}
 
-	_putchar(10);
+	_putchar('\n);
 
 	return (0);
 }
