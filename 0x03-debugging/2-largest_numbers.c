@@ -5,7 +5,7 @@
  * @a: first integer
  * @b: second integer
  * @c: third integer
- * Return: largest number
+ * Return: largest number out of three
  */
 
 int largest_number(int a, int b, int c)
